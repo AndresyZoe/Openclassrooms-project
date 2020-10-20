@@ -1,0 +1,116 @@
+@media screen and (max-width: 500px) and (min-width: 320px)
+{ 
+	aside{
+    width: 200%;
+    margin: 0;
+    border: none;
+    font-size: 1em;
+	}
+	main{
+		padding: 0 20rem;
+		position: absolute;
+top: 770px; left: -50px;
+	
+}
+aside footer{
+	padding-top: 90px;
+}
+
+}
+aside {
+	border: 1px solid black;
+	text-align: center;
+	background-color: #2196f3;
+	display: block;
+	min-height: 100vh;
+	position: relative;
+}
+body {
+	margin: 0;
+	display: grid;
+	grid-template-columns: 250px auto;
+	font-family: 'Kaushan Script', cursive;
+	} 
+aside h3 {
+	font-size: 25px;
+	font-family: Trebuchet MS;
+	border: 1px solid #000000;
+	background-color: #808080;
+	margin: 0 0 30px 0;
+	color: white;
+}
+.bleu {
+	color: #0288d1;
+}
+
+h1, h4{
+	text-align: center;
+}
+h2 {
+	
+	border-bottom: 1px solid blue;
+	width: 80%;	
+}
+
+section .content{
+  display: grid;
+  grid-template-columns: 1rem 10rem 1fr;
+  grid-gap: 4rem;
+
+}
+aside footer{
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+}
+main{
+	padding: 0 3rem;
+}
+ aside section img{
+ 	margin: 1rem 0 ;
+ 	border-radius: 50%;
+ }
+ main section .info{
+ 	grid-template-columns: repeat(2) 1fr;
+ }
+
+section .icon ,.fas{
+	color: blue;
+	padding: 25px;
+}
+
+
+aside .fas{
+font-size: 4vmin;
+border-radius: 50%;
+border: 1px solid rgba(0, 0, 0, 1);
+padding: 3%;
+color: black;
+margin: 10px 20px 40px 0;
+}
+
+h4{
+font-size: 25px;
+
+}
+.icon-point{
+	font-size: 1vmin;
+}
+
+ #info{
+        display: flex;
+        justify-content: space-between;
+        margin: 0%;
+        margin-right:500px;
+        	
+    }
+    #info div{
+        font-size: 1em;
+    }
+
+header{
+	margin:0%;
+}
+
+
+
